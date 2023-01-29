@@ -1,4 +1,4 @@
-//import 'dart:html';
+// import 'dart:html';
 
 import 'package:flutter/material.dart';
 
@@ -52,19 +52,19 @@ class _ProfileState extends State<Profile> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [Colors.blue,
-                      // Colors.deepPurpleAccent
+                      Colors.deepPurpleAccent
                       ],
                     ),
                   ),
                   child: Column(
-                    children: [
+                    children:const [
                       SizedBox(height: 110.0,),
                       CircleAvatar(
                         radius: 65.0,
                         backgroundImage: AssetImage('assets/erza.jpg'),
                         backgroundColor: Colors.white,
                       ),
-                      SizedBox(height: 10.0,),
+                      SizedBox(height: 100.0,),
                       Text('Erza Scarlet',
                       style: TextStyle(
                         color:Colors.white,
