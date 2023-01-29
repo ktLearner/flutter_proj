@@ -64,7 +64,7 @@ class _ProfileState extends State<Profile> {
                         backgroundImage: AssetImage('assets/erza.jpg'),
                         backgroundColor: Colors.white,
                       ),
-                      SizedBox(height: 100.0,),
+                      SizedBox(height: 10.0,),
                       Text('Erza Scarlet',
                       style: TextStyle(
                         color:Colors.white,
